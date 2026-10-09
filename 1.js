@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         1
 // @namespace    http://tampermonkey.net/
-// @version      2
+// @version      3
 // @description  six sevennnn
 // @author       all of them
 // @match        http://*/*
@@ -24,8 +24,6 @@
 
 (function() {
     'use strict';
-
-    // --- OLLAMA API CONFIGURATION (Dibiarkan terbuka sesuai permintaan) ---
     const OLLAMA_API_KEY = "apikey";
     const MODEL_NAME = "gemma4:31b";
     const API_URL = "https://ollama.com/api/chat";
